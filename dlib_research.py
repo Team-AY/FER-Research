@@ -1,8 +1,8 @@
-import dlib_research
+import dlib
 import cv2
 
 # Load the pre-trained face detection model
-detector = dlib_research.get_frontal_face_detector()
+detector = dlib.get_frontal_face_detector()
 
 # Initialize the webcam
 cap = cv2.VideoCapture(0)
