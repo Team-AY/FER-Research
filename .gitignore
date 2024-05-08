@@ -162,3 +162,5 @@ cython_debug/
 models/*
 
 faces_db/*
+
+datasets/*
